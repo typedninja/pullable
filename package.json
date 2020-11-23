@@ -1,0 +1,47 @@
+{
+  "name": "@typedninja/pullable",
+  "version": "1.0.0",
+  "description": "Async generator transformation library",
+  "author": "Typed Ninja <strongly@typed.ninja>",
+  "license": "MIT",
+  "main": "dist/lib/index.cjs.js",
+  "module": "dist/lib/index.es.js",
+  "types": "dist/lib/index.d.ts",
+  "homepage": "https://typed.ninja/pullable/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/typedninja/pullable.git"
+  },
+  "bugs": {
+    "url": "https://github.com/typedninja/pullable/issues"
+  },
+  "keywords": [
+    "async",
+    "generator",
+    "iterator",
+    "iterable"
+  ],
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "rimraf dist",
+    "test": "jest --config jest.json",
+    "build": "rollup -c && typedoc",
+    "cover": "jest --config jest.json --coverage"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.15",
+    "jest": "^26.6.3",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.33.3",
+    "rollup-plugin-typescript2": "^0.29.0",
+    "ts-jest": "^26.4.4",
+    "ts-node": "^9.0.0",
+    "typedoc": "^0.19.2",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "@typedninja/signal": "^1.0.3"
+  }
+}
