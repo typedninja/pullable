@@ -19,7 +19,8 @@
     "async",
     "generator",
     "iterator",
-    "iterable"
+    "iterable",
+    "pullable"
   ],
   "files": [
     "dist"
