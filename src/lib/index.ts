@@ -15,6 +15,11 @@ export * from "./transformers/skip";
 export * from "./transformers/take";
 export * from "./transformers/tap";
 
+export * from "./helpers/arrayfrom";
+export * from "./helpers/concatfrom";
+export * from "./helpers/firstvaluefrom";
 export * from "./helpers/from";
+export * from "./helpers/lastvaluefrom";
+export * from "./helpers/mergefrom";
 
 export * from "./pullable";
