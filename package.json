@@ -1,6 +1,6 @@
 {
   "name": "@typedninja/pullable",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Async generator transformation library",
   "author": "Typed Ninja <strongly@typed.ninja>",
   "license": "MIT",
